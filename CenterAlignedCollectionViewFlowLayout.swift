@@ -38,7 +38,7 @@ public class CenterAlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
       
       let cellViewPortWidth = maxX - minX
       // Calculate the offset of this row, and apply it to this row's layout attributes to make them center aligned
-      let offset = floor((self.collectionViewContentSize().width - cellViewPortWidth) / 2)
+      let offset = floor((self.collectionView!.frame.size.width - cellViewPortWidth) / 2)
       attributesInRow.forEach({
         $0.frame.origin.x += offset
       })
