@@ -166,6 +166,7 @@
 				TargetAttributes = {
 					8AD908511C23214400D78788 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 					};
 					8AD908621C232DD400D78788 = {
 						CreatedOnToolsVersion = 7.2;
@@ -363,6 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -380,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = info.pitiphong.CenterAlignedCollectionViewFlowLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -426,6 +429,7 @@
 				8AD9085C1C23214400D78788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AD908721C232DD400D78788 /* Build configuration list for PBXNativeTarget "CenterAlignedCollectionViewFlowLayout-Demo" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +438,7 @@
 				8AD908741C232DD400D78788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
